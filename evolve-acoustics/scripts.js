@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 document.getElementById('menu-toggle').addEventListener('click', () => {
   const nav = document.getElementById('main-nav');
   if (nav.classList.contains('hidden')) {
@@ -10,6 +11,16 @@ document.getElementById('menu-toggle').addEventListener('click', () => {
 // Search toggle functionality (placeholder)
 document.getElementById('search-toggle').addEventListener('click', () => {
   alert('Search functionality is not implemented yet.');
+=======
+// Menu toggle functionality
+document.getElementById('menu-toggle').addEventListener('click', () => {
+  alert('Menu toggle clicked - implement menu functionality here.');
+});
+
+// Search toggle functionality
+document.getElementById('search-toggle').addEventListener('click', () => {
+  alert('Search toggle clicked - implement search functionality here.');
+>>>>>>> 6b78d696406e91be5262d8bd7ffabb8a4fc21015
 });
 
 // Client logos carousel - simple auto scroll
